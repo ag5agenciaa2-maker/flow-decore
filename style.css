@@ -984,17 +984,17 @@ header.scrolled .logo img {
     }
 
     .footer-heading {
-        text-align: center;
+        text-align: left;
     }
 
     .footer-heading::after {
-        left: 50%;
-        transform: translateX(-50%);
+        left: 0;
+        transform: none;
     }
 
     .footer-links a,
     .footer-contact p {
-        justify-content: center;
+        justify-content: flex-start;
     }
 }
 
