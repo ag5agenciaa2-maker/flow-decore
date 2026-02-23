@@ -272,7 +272,8 @@ header.scrolled .logo img {
 @media (max-width: 1024px) {
 
     .nav-desktop,
-    .header-cta {
+    .header-cta,
+    .logo-name {
         display: none;
     }
 
