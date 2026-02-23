@@ -277,6 +277,15 @@ header.scrolled .logo img {
         display: none;
     }
 
+    header {
+        padding: 6px 0;
+        top: 15px;
+    }
+
+    .logo img {
+        height: 32px;
+    }
+
     .mobile-menu-btn {
         display: block;
     }
