@@ -274,16 +274,16 @@ header.scrolled .logo img {
     .nav-desktop,
     .header-cta,
     .logo-name {
-        display: none;
+        display: none !important;
     }
 
     header {
-        padding: 6px 0;
-        top: 15px;
+        padding: 4px 0 !important;
+        top: 10px !important;
     }
 
     .logo img {
-        height: 32px;
+        height: 28px !important;
     }
 
     .mobile-menu-btn {
