@@ -422,6 +422,18 @@ header.scrolled .logo img {
 }
 
 @media (max-width: 768px) {
+    .hero-content {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .hero-content .flex {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
     .hero h1 {
         font-size: 2.5rem;
     }
