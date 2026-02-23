@@ -1,0 +1,39 @@
+/* ============================================================
+   TEMA: CUSTOM — Template em branco
+   Copie este arquivo, renomeie e preencha com as cores do seu site.
+   Importe APÓS cookie-banner.css.
+   ============================================================ */
+
+:root {
+    /* ── PREENCHA COM AS CORES DO SEU SITE ── */
+
+    --ck-bg: ;
+    /* Ex: #1a1a2e  — Fundo do banner e header do modal */
+    --ck-accent: ;
+    /* Ex: #e94560  — Cor principal: botão, badge, borda */
+    --ck-accent-dark: ;
+    /* Ex: #c73652  — Hover do accent */
+    --ck-accent-rgb: ;
+    /* Ex: 233, 69, 96  — RGB sem parênteses (para rgba()) */
+
+    /* ── OPCIONAIS (já têm padrão) ── */
+    /* --ck-text-muted: rgba(255, 255, 255, 0.42); */
+    /* --ck-text-link: rgba(255, 255, 255, 0.6); */
+    /* --ck-modal-bg: #ffffff; */
+    /* --ck-modal-footer-bg: #f8f9fa; */
+    /* --ck-modal-category-name: #1a3040; */
+    /* --ck-toggle-off: #d0d5db; */
+    /* --ck-radius: 12px; */
+    /* --ck-radius-sm: 5px; */
+    /* --ck-modal-max-width: 520px; */
+}
+
+/*
+  DICA: Para encontrar o RGB de uma cor hex, use:
+  #e94560 → R=233, G=69, B=96 → "233, 69, 96"
+  
+  Ferramentas úteis:
+  - https://www.color-hex.com/
+  - https://coolors.co/
+  - DevTools do Chrome: clique na cor no painel Styles
+*/

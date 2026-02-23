@@ -1,0 +1,41 @@
+/* ============================================================
+   TEMA: DARK (Padrão)
+   Fundo escuro com accent customizável.
+   Importe APÓS cookie-banner.css e ajuste as variáveis.
+   ============================================================ */
+
+:root {
+    /* Fundo escuro profundo */
+    --ck-bg: #0f1923;
+
+    /* Accent: laranja/âmbar — substitua pela cor principal do seu site */
+    --ck-accent: #f0a500;
+    --ck-accent-dark: #c8880a;
+    --ck-accent-rgb: 240, 165, 0;
+
+    /* Texto */
+    --ck-text-muted: rgba(255, 255, 255, 0.42);
+    --ck-text-link: rgba(240, 165, 0, 0.75);
+}
+
+/* Exemplos de accents prontos — descomente o que quiser usar:
+
+  Azul elétrico:
+  --ck-accent: #3b82f6; --ck-accent-dark: #2563eb; --ck-accent-rgb: 59, 130, 246;
+
+  Verde esmeralda:
+  --ck-accent: #10b981; --ck-accent-dark: #059669; --ck-accent-rgb: 16, 185, 129;
+
+  Rosa/Magenta:
+  --ck-accent: #ec4899; --ck-accent-dark: #db2777; --ck-accent-rgb: 236, 72, 153;
+
+  Vermelho:
+  --ck-accent: #ef4444; --ck-accent-dark: #dc2626; --ck-accent-rgb: 239, 68, 68;
+
+  Roxo:
+  --ck-accent: #8b5cf6; --ck-accent-dark: #7c3aed; --ck-accent-rgb: 139, 92, 246;
+
+  Dourado metálico (A&A Advocacia):
+  --ck-accent: #c9a962; --ck-accent-dark: #a68a4a; --ck-accent-rgb: 201, 169, 98;
+  --ck-bg: #0d2d38;
+*/

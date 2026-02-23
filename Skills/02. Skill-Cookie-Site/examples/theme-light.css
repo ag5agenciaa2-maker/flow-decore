@@ -1,0 +1,67 @@
+/* ============================================================
+   TEMA: LIGHT (Claro)
+   Banner com fundo claro, ideal para sites corporativos.
+   Importe APÓS cookie-banner.css.
+   ============================================================ */
+
+:root {
+    /* Fundo claro */
+    --ck-bg: #f0f4f8;
+
+    /* Accent azul corporativo */
+    --ck-accent: #1d4ed8;
+    --ck-accent-dark: #1e40af;
+    --ck-accent-rgb: 29, 78, 216;
+
+    /* Texto adaptado para fundo claro */
+    --ck-text-muted: rgba(30, 40, 60, 0.55);
+    --ck-text-link: rgba(29, 78, 216, 0.8);
+}
+
+/* Sobrescreve o banner para fundo claro */
+.ck-banner {
+    background: rgba(240, 244, 248, 0.97);
+    border-top: 1px solid rgba(29, 78, 216, 0.12);
+    box-shadow: 0 -4px 24px rgba(0, 0, 0, 0.08);
+}
+
+.ck-banner__title {
+    color: var(--ck-accent);
+}
+
+.ck-banner__text {
+    color: rgba(30, 40, 60, 0.55);
+}
+
+/* Botão outline adaptado para fundo claro */
+.ck-banner__actions .ck-btn--outline {
+    border-color: rgba(30, 40, 60, 0.2);
+    color: rgba(30, 40, 60, 0.5);
+}
+
+.ck-banner__actions .ck-btn--outline:hover {
+    border-color: rgba(30, 40, 60, 0.4);
+    color: rgba(30, 40, 60, 0.75);
+}
+
+/* Botão ghost adaptado para fundo claro */
+.ck-banner__actions .ck-btn--ghost {
+    color: rgba(30, 40, 60, 0.4);
+}
+
+.ck-banner__actions .ck-btn--ghost:hover {
+    color: rgba(30, 40, 60, 0.7);
+}
+
+/* Botão flutuante adaptado */
+.ck-prefs-btn {
+    background: rgba(240, 244, 248, 0.9);
+    border-color: rgba(29, 78, 216, 0.2);
+    color: rgba(30, 40, 60, 0.45);
+}
+
+.ck-prefs-btn:hover {
+    background: rgba(240, 244, 248, 0.98);
+    border-color: rgba(29, 78, 216, 0.4);
+    color: rgba(30, 40, 60, 0.8);
+}
